@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.Activity_Registered">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registered_title"
+        android:textSize="@dimen/dp28"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/dp20"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp70"
+        android:layout_marginTop="@dimen/dp60"
+        android:gravity="center"
+        android:background="@drawable/edittext_border"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+86"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dp24"/>
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="@dimen/dp300"
+            android:layout_height="@dimen/dp60"
+            android:layout_gravity="center"
+            android:background="@drawable/edittext_border2"
+            android:ems="10"
+            android:inputType="phone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/dp18"
+            android:text="@string/registered_agreement"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="@dimen/dp220"
+        android:layout_height="@dimen/dp40"
+        android:layout_marginTop="@dimen/dp60"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/selector_btn_bg"
+        android:textColor="@color/white"
+        android:text="@string/agreement_go"/>
+
+
+</LinearLayout>

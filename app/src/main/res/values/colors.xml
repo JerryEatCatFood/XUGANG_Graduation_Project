@@ -70,6 +70,43 @@
     <color name="color_474746">#474746</color>
     <color name="color_2000000">#20000000</color>
 
+
+    <!--项目使用颜色-->
+    <color name="white_10">#1AFFFFFF</color>
+    <color name="white_20">#33FFFFFF</color>
+    <color name="white_26">#26FFFFFF</color>
+    <color name="white_30">#4DFFFFFF</color>
+    <color name="white_60">#99FFFFFF</color>
+    <color name="white_70">#B3FFFFFF</color>
+    <color name="color3D4655">#3D4655</color>
+    <color name="color478BC5">#478BC5</color>
+    <color name="color52575F">#52575F</color>
+    <color name="color6C7A89">#6C7A89</color>
+    <color name="colorff478bc5">#ff478bc5</color>
+    <color name="colorAAB6D0">#AAB6D0</color>
+    <color name="colorD8D8D8">#D8D8D8</color>
+    <color name="transparent">#00000000</color>
+    <color name="trans_80">#33000000</color>
+    <color name="color2D3540">#2D3540</color>
+    <color name="color53647A">#53647A</color>
+    <color name="color_3C8BD0">#3C8BD0</color>
+    <color name="color_aab1c2">#AAB1C2</color>
+    <color name="color_272c35">#272C35</color>
+    <color name="color_9D9EA0">#9D9EA0</color>
+    <color name="color_232B35">#232B35</color>
+    <color name="color_6c7a89">#6C7A89</color>
+    <color name="color_262e3b">#262E3B</color>
+    <color name="color_41ac83">#41AC83</color>
+    <color name="color_1c232">#1C232F</color>
+    <color name="color_19202c">#19202C</color>
+    <color name="color_171c27">#171C27</color>
+    <color name="color_3c485b">#3C485B</color>
+    <color name="color_4972b8">#4972B8</color>
+    <color name="color_161b27">#161B27</color>
+    <color name="color_242b39">#242B39</color>
+    <color name="color_3e4a5d">#3E4A5D</color>
+    <color name="color_cc4c5e6d">#CC4C5E6D</color>
+
     <color name="switch_bg_day">#FFB6C0DB</color>
     <color name="switch_bg_night">#FF5B5D6A</color>
 </resources>
